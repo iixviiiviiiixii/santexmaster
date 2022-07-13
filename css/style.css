@@ -19,7 +19,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: var(--greyDark);
-    background-color: var(--greyLight-1);
+    background-color: #000;
 }
 
 a {
