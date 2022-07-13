@@ -19,7 +19,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: var(--greyDark);
-    background-color: #000;
+    background-color: var(--greyLight-1);
 }
 
 a {
@@ -449,7 +449,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: var(--greyLight-1);
     animation: slide-one 15s steps(20) infinite;
 
 }
@@ -484,7 +484,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: var(--greyLight-1);
     animation: slide-two 15s steps(18) infinite;
 
 }
@@ -523,7 +523,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000;
+    background: var(--greyLight-1);
     animation: slide-three 15s steps(22) infinite;
 
 }
