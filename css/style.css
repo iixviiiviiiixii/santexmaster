@@ -449,7 +449,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--greyLight-1);
+    background: #000;
     animation: slide-one 15s steps(20) infinite;
 
 }
@@ -484,7 +484,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--greyLight-1);
+    background: #000;
     animation: slide-two 15s steps(18) infinite;
 
 }
@@ -523,7 +523,7 @@ a {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--greyLight-1);
+    background: #000;
     animation: slide-three 15s steps(22) infinite;
 
 }
