@@ -1050,7 +1050,7 @@ a {
 
     .intro__title {
         padding: 50px;
-        box-shadow: -.2rem -.2rem .2rem #fff, -.2rem -.2rem .8rem #fff;
+        box-shadow: -.2rem -.2rem .2rem #fff, -.2rem -.2rem .8rem #fff, 1px 1px 1px rgba(237, 100, 166, 0.8);
     }
 
     .h1 {
