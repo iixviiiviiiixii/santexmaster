@@ -1126,7 +1126,7 @@ a {
     }
 
     .logo {
-        text-shadow: .2rem .2rem .2rem var(--greyLight-3),
+        text-shadow: .2rem .2rem .2rem var(--indigo),
             -.2rem -.2rem .2rem #fff;
         line-height: 0.8;
     }
