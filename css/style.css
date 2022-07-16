@@ -345,13 +345,19 @@ a {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 10px;
-    color: var(--indigo);
+    background: #8ABDFF;
+    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .h2 {
     font-size: 24px;
     font-weight: 600;
-    color: var(--indigo);
+    background: #8ABDFF;
+    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .drops {
