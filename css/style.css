@@ -217,7 +217,7 @@ a {
 }
 
 .tel:active {
-    border: 3px solid rgb(205, 255, 202);
+    border: 3px solid rgb(235, 255, 226);
     background: var(--green);
     background: linear-gradient(to bottom right, var(--green) 0%, var(--green) 100%);
     -webkit-background-clip: text;
@@ -259,7 +259,7 @@ a {
 }
 
 .call__btn:active {
-    border: 3px solid rgb(205, 255, 202);
+    border: 3px solid rgb(235, 255, 226);
     font-size: 24px;
     box-shadow: .1rem .1rem .4rem rgba(102, 126, 234, 0.5),
         -.4rem -.4rem .8rem #fff,
@@ -316,7 +316,7 @@ a {
     justify-content: center;
     height: 100vh;
     width: 100%;
-    min-height: 450px;
+    min-width: 450px;
 }
 
 .intro__title {
@@ -346,7 +346,7 @@ a {
     font-weight: 800;
     margin-bottom: 10px;
     background: #8ABDFF;
-    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
+    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -355,7 +355,7 @@ a {
     font-size: 24px;
     font-weight: 600;
     background: #8ABDFF;
-    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
+    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -583,6 +583,71 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* .valve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    filter: blur(1px);
+    right: 200px;
+    top: 200px;
+    animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.valve-1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 30px solid var(--greyLight-1);
+    box-shadow: .15rem .15rem .8rem var(--indigo),
+        -.2rem -.2rem .2rem #fff, -.2rem -.2rem .6rem #fff;
+}
+
+.valve-2 {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset .15rem .15rem .6rem var(--indigo), -.15rem -.15rem .4rem var(--indigo),
+        inset -.2rem -.2rem .2rem #fff, -.2rem -.2rem .8rem #fff;
+
+}
+
+.valve-3 {
+    position: absolute;
+    font-size: 420px;
+    color: var(--greyLight-1);
+    text-shadow: .15rem .15rem .5rem var(--indigo), -.2rem -.2rem .2rem #fff, -.2rem -.2rem .6rem #fff;
+}
+
+.valve-4 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    box-shadow: .15rem .15rem .6rem var(--indigo),
+        -.2rem -.2rem .2rem #fff, -.2rem -.2rem .6rem #fff;
+    border-radius: 50%;
+    background-color: var(--greyLight-1);
+}
+
+.valve-5 {
+    position: absolute;
+    height: 15%;
+    width: 15%;
+    box-shadow: inset .15rem .15rem .4rem var(--indigo), -.15rem -.15rem .4rem var(--indigo),
+        inset -.2rem -.2rem .2rem #fff, -.2rem -.2rem .4rem #fff;
+} */
 
 
 /* Benefits */
@@ -1067,7 +1132,7 @@ a {
 
     .intro__title {
         padding: 50px;
-        box-shadow: -1px -1px 2px #fff, 0 0 2px #fff;
+        box-shadow: -1px -1px 2px #fff, 1px 1px 2px #fff;
     }
 
     .h1 {
