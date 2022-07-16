@@ -345,19 +345,13 @@ a {
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 10px;
-    background: #8ABDFF;
-    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--indigo);
 }
 
 .h2 {
     font-size: 24px;
     font-weight: 600;
-    background: #8ABDFF;
-    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--indigo);
 }
 
 .drops {
@@ -601,7 +595,7 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase;
     background: #8ABDFF;
-    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
+    background: linear-gradient(to bottom right, var(--pink) 0%, var(--yellow) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -868,7 +862,7 @@ a {
     font-size: 11px;
     font-weight: 600;
     line-height: 1.4;
-    color: var(--black);
+    color: var(--greyDark);
     text-transform: uppercase;
 }
 
