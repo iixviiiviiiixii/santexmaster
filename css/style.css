@@ -30,7 +30,7 @@ a {
     --yellow: #f1a50d;
     --blue: #4299E1;
     --green: #21a87d;
-    --indigo: #667EEA;
+    --indigo: rgba(102, 126, 234, 0.7);
     --pink: #ED64A6;
     --accent-color: #38B2AC;
     --primary: #6d5dfc;
@@ -248,17 +248,18 @@ a {
     color: var(--green);
     font-size: 25px;
     background: var(--greyLight-1);
+    border: 3px solid #fff;
     border-radius: 50%;
-    box-shadow: .4rem .4rem .8rem var(--greyLight-2),
+    box-shadow: .1rem .1rem .4rem rgba(102, 126, 234, 0.5),
         -.4rem -.4rem .8rem #fff;
     z-index: 1000;
 }
 
 .call__btn:active {
     font-size: 24px;
-    box-shadow: .4rem .4rem .8rem var(--greyLight-2),
+    box-shadow: .1rem .1rem .4rem rgba(102, 126, 234, 0.5),
         -.4rem -.4rem .8rem #fff,
-        inset .2rem .2rem .4rem var(--greyLight-2),
+        inset .1rem .1rem .4rem rgba(102, 126, 234, 0.5),
         inset -.2rem -.2rem .4rem #fff;
 }
 
@@ -268,8 +269,8 @@ a {
     height: 80px;
     border-radius: 50%;
     filter: blur(1px);
-    background: linear-gradient(to bottom right, var(--greyLight-2) 0%, #fff 100%);
-    box-shadow: .4rem .4rem .8rem var(--greyLight-2),
+    background: linear-gradient(to bottom right, rgba(102, 126, 234, 0.4) 0%, #fff 100%);
+    box-shadow: .1rem .1rem .8rem rgba(102, 126, 234, 0.5),
         -.4rem -.4rem .8rem #fff;
     animation: waves 3s linear infinite;
 }
@@ -280,7 +281,7 @@ a {
     height: 80px;
     border-radius: 50%;
     filter: blur(1px);
-    box-shadow: .4rem .4rem .8rem var(--greyLight-2),
+    box-shadow: .1rem .1rem .8rem rgba(102, 126, 234, 0.4),
         -.4rem -.4rem .8rem #fff;
     animation: waves 3s linear 1.5s infinite;
 }
@@ -670,9 +671,10 @@ a {
     padding: 20px;
     text-align: center;
     border-radius: 20px;
-    box-shadow: 0.2rem 0.2rem 0.4rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.1rem white, inset .2rem .2rem .4rem var(--indigo),
-        inset -.8rem -.8rem 2.4rem #fff,
-        inset -.2rem -.2rem .1rem #fff;
+    border: 4px solid #fff;
+    box-shadow: 0.2rem 0.2rem 0.4rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.2rem white, inset .2rem .2rem .4rem var(--indigo),
+        inset .2rem .2rem 4rem #fff,
+        inset -.2rem -.2rem .2rem #fff;
 }
 
 .services__img {
@@ -833,7 +835,7 @@ a {
     margin: auto;
     padding: 10px;
     border-radius: 50%;
-    box-shadow: 0.2rem 0.2rem .4rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.1rem white;
+    box-shadow: 0.2rem 0.2rem .8rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.1rem white;
 }
 
 .amount {
@@ -863,8 +865,9 @@ a {
     width: 700px;
     margin: 10px auto;
     border-radius: 50px;
+    border: 4px solid #fff;
     background-color: var(--greyLight-1);
-    box-shadow: 0.2rem 0.2rem .4rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.6rem white, -0.2rem -0.2rem 0.3rem white, inset .2rem .2rem .4rem var(--indigo),
+    box-shadow: 0.2rem 0.2rem .4rem var(--indigo), -0.8rem -0.8rem 2.4rem white, -0.2rem -0.2rem 0.8rem white, -0.2rem -0.2rem 0.2rem white, inset .2rem .2rem .4rem var(--indigo),
         inset -.8rem -.8rem 8rem #fff,
         inset -.2rem -.2rem .2rem #fff;
 }
@@ -873,7 +876,7 @@ a {
     border-radius: 30px;
     margin: 40px 60px;
     padding: 30px 40px;
-    box-shadow: -.2rem -.2rem .3rem #fff, .2rem .2rem .4rem var(--indigo),
+    box-shadow: -.2rem -.2rem .3rem #fff, .2rem .2rem .8rem var(--indigo),
         -.2rem -.2rem .6rem #fff;
     ;
 }
