@@ -342,16 +342,16 @@ a {
         transform: rotateX(540deg) rotateY(180deg) scale(1.25);
     }
 
-    12% {
+    13% {
         transform: rotateX(540deg) rotateY(180deg) scale(1.3);
     }
 
     18% {
-        transform: rotateX(630deg) rotateY(630deg) scale(.85);
+        transform: rotateX(630deg) rotateY(630deg) scale(1.3);
     }
 
     21% {
-        transform: rotateX(720deg) rotateY(720deg) scale(1.2);
+        transform: rotateX(720deg) rotateY(720deg) scale(1.3);
     }
 
     40% {
