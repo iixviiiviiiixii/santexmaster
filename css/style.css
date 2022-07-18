@@ -331,29 +331,6 @@ a {
     background: linear-gradient(to bottom right, var(--accent-color) 0%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: title-3 15s linear 1;
-}
-
-@keyframes title-3 {
-    0% {
-        transform: scale(0);
-    }
-
-    5% {
-        transform: scale(1.2);
-    }
-
-    7% {
-        transform: scale(.9);
-    }
-
-    8% {
-        transform: scale(1);
-    }
-
-    100% {
-        transform: scale(1);
-    }
 }
 
 .intro__title {
