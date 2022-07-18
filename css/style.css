@@ -322,7 +322,7 @@ a {
     left: 0;
     text-transform: uppercase;
     text-align: center;
-    padding: 80px 10px 40px;
+    padding: 80px 10px 60px;
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -1180,7 +1180,7 @@ a {
 @media screen and (max-width: 800px) {
     .intro__title-3 {
         font-size: 22px;
-        padding: 80px 50px 40px;
+        padding: 80px 50px 60px;
     }
 
     .h1 {
@@ -1418,7 +1418,7 @@ a {
 
     .intro__title-3 {
         font-size: 17px;
-        padding: 80px 40px 40px;
+        padding: 80px 40px 60px;
     }
 
     .intro__title {
@@ -1520,7 +1520,7 @@ a {
 
     .intro__title-3 {
         font-size: 16px;
-        padding: 80px 10px 40px;
+        padding: 80px 10px 60px;
     }
 
     .intro__title {
