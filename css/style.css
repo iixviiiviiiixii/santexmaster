@@ -213,7 +213,6 @@ a {
     background: linear-gradient(to bottom right, var(--accent-color) 0%, var(--primary) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .tel:active {
@@ -310,11 +309,66 @@ a {
 .intro {
     overflow: hidden;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     height: 100vh;
     width: 100%;
     min-height: 600px;
+}
+
+.intro__title-3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 80px 10px 40px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    background: #8ABDFF;
+    background: linear-gradient(to bottom right, var(--accent-color) 0%, var(--primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: title-3 15s linear 1;
+}
+
+@keyframes title-3 {
+    0% {
+        top: 100px;
+        transform: scale(0);
+    }
+
+    25% {
+        top: 100px;
+        transform: scale(0);
+    }
+
+    28% {
+        top: 0;
+        transform: scale(1.2);
+    }
+
+    30% {
+        top: 0;
+        transform: scale(.9);
+    }
+
+    31% {
+        top: 0;
+        transform: scale(1);
+    }
+
+    45% {
+        top: 0;
+        transform: scale(1);
+    }
+
+    100% {
+        top: 0;
+        transform: scale(1);
+    }
 }
 
 .intro__title {
@@ -326,7 +380,6 @@ a {
     display: flex;
     justify-content: center;
     border-radius: 20px;
-
 }
 
 @keyframes rotate {
@@ -354,7 +407,7 @@ a {
         transform: rotateX(720deg) rotateY(720deg) scale(1.2);
     }
 
-    40% {
+    35% {
         transform: rotateX(720deg) rotateY(720deg) scale(1);
     }
 
@@ -457,6 +510,16 @@ a {
     margin-left: -20px;
     display: flex;
     justify-content: center;
+}
+
+@keyframes drip {
+    0% {
+        top: -500px;
+    }
+
+    100% {
+        top: 0;
+    }
 }
 
 
@@ -616,6 +679,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 
 
 /* Benefits */
@@ -1152,6 +1216,11 @@ a {
 }
 
 @media screen and (max-width: 800px) {
+    .intro__title-3 {
+        font-size: 22px;
+        padding: 80px 50px 40px;
+    }
+
     .h1 {
         font-size: 24px;
     }
@@ -1188,6 +1257,10 @@ a {
     .tel {
         padding: 10px 20px;
         font-size: 16px;
+    }
+
+    .intro__title-3 {
+        font-size: 19px;
     }
 
     .intro__title {
@@ -1292,6 +1365,10 @@ a {
         height: 600px;
     }
 
+    .intro__title-3 {
+        font-size: 18px;
+    }
+
     .intro__title {
         padding: 30px;
     }
@@ -1375,6 +1452,11 @@ a {
 
     .schedule {
         transform: scale(0.7);
+    }
+
+    .intro__title-3 {
+        font-size: 17px;
+        padding: 80px 40px 40px;
     }
 
     .intro__title {
@@ -1474,6 +1556,11 @@ a {
         height: 500px;
     }
 
+    .intro__title-3 {
+        font-size: 16px;
+        padding: 80px 10px 40px;
+    }
+
     .intro__title {
         height: 210px;
     }
@@ -1529,6 +1616,10 @@ a {
 
     .schedule {
         transform: scale(.5);
+    }
+
+    .intro__title-3 {
+        font-size: 13px;
     }
 
     .intro__title {
