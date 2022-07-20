@@ -394,7 +394,7 @@ a {
     font-weight: 800;
     margin-bottom: 10px;
     background: #8ABDFF;
-    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
+    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -403,7 +403,7 @@ a {
     font-size: 24px;
     font-weight: 600;
     background: #8ABDFF;
-    background: linear-gradient(to bottom right, rgba(66, 153, 225, 0.8) 0%, rgba(237, 100, 166, 0.8) 100%);
+    background: linear-gradient(to bottom right, var(--blue) 0%, var(--pink) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
