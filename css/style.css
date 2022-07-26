@@ -1127,7 +1127,7 @@ a {
 
     .intro__title {
         padding: 50px;
-        box-shadow: -1px -1px 2px #fff, 1px 1px 2px #fff;
+        border: 1px solid #fff;
         animation: rotate 10s linear 1;
     }
 
@@ -1433,7 +1433,7 @@ a {
     }
 
     .h2 {
-        font-size: 12px;
+        font-size: 13px;
     }
 
 
@@ -1443,30 +1443,30 @@ a {
     }
 
     .drops {
-        transform: scale(0.5);
+        transform: scale(0.45);
         top: 110px;
         left: 90px;
     }
 
     .intro__title-2 {
-        margin-left: -60px;
+        margin-left: -70px;
     }
 
     .intro__list {
-        font-size: 8px;
+        font-size: 9px;
     }
 
     .intro__list-li {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .intro__icon {
         left: -30px;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .intre__tel {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .reviews {
@@ -1534,16 +1534,24 @@ a {
 
     .drops {
         transform: scale(0.35);
-        top: 100px;
-        left: 60px;
+        top: 90px;
+        left: 65px;
     }
 
     .intro__title-2 {
-        margin-left: -100px;
+        margin-left: -90px;
+    }
+
+    .intro__list {
+        font-size: 8px;
+    }
+
+    .intro__list-li {
+        margin-bottom: 10px;
     }
 
     .intro__tel {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .benefits__box {
@@ -1642,7 +1650,11 @@ a {
 
     .services__item {
         width: 260px;
-        padding: 20px;
+        padding: 10px;
+    }
+
+    .services__img {
+        width: 230px;
     }
 
     .reviews {
